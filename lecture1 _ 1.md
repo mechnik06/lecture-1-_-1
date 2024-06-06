@@ -104,8 +104,64 @@ console.log(message);
 ```
 # Loops?
 ### Mo da JavaScript 3 namud loop dorem for , while , Do while.
-
-
+## 1.For
+```
+for(let i = 0; i < 10 ; i++) {
+    console.log(i);
+}
+```
+## 2.While 
+```
+let cnt = 0;
+let num = 0;
+while(cnt < 3){
+    cnt++;
+    num+=cnt;
+}
+console.log(num);
+```
+## 3.Do while
+```
+let str = '';
+let cnt = 0;
+do{
+    cnt = cnt + 1;
+    str = str + cnt;
+}while(cnt < 5);
+console.log(str);
+```
+# Functions?
+![Alt-текст](/funcsion.jpg)
+### Mo da zaboni JavaScript 3 namud Function dorem.
+## 1.Function declaration
+### Function declaration ay diga functions farq mekna baroi ki nomi function declarationa xdmon memonem Masalan:
+```
+function get(num1,num2){
+    return num1+num2;
+}
+```
+## Yan savol xami xdi function chiyay?
+### Function ya blok kodi tayoray ki mo da yajo menavisemsh va da chanjo istifoda mebarem.
+## 2.Function Expression. 
+### Function expression functione meboshad ki nom nadora mo vayoda nom monda nametonem 🤔 ba nomi vayo chi meshava nomi vayo nomi verebl meshava chixe hozi mefahmonm. Va function expression du namydan Arrow function va anonymous function.
+```
+// anonymous function.
+let cnt = function(parametr){
+    return parametr;
+}
+// arrow function.
+let num = function(parametr) => {
+    return parametr;
+}
+```
+## 3.An LIFE  (immediately Invoked Function expression);
+```
+var cnt = "Mumin";
+(function(a,b){
+    var cnt = "Aby";
+    console.log(cnt); })()
+    console.log(cnt);
+```
 
 
 
